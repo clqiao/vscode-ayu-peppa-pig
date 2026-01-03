@@ -256,7 +256,7 @@
 		"profileBadge.background": "#e6b450",
 		"profileBadge.foreground": "#805600",
 		"chat.requestBorder": "#47526640",
-		"chat.requestBackground": "#d95757",
+		"chat.requestBackground": "#0d1017",
 		"chat.requestBubbleBackground": "#47526633",
 		"chat.requestBubbleHoverBackground": "#47526640",
 		"chat.slashCommandBackground": "#39bae633",

@@ -446,7 +446,7 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       // CHAT
       'chat.requestBorder': scheme.ui.selection.active.hex(),
-      'chat.requestBackground': scheme.common.error.hex(),
+      'chat.requestBackground': scheme.ui.bg.hex(),
       'chat.requestBubbleBackground': scheme.ui.selection.normal.hex(),
       'chat.requestBubbleHoverBackground': scheme.ui.selection.active.hex(),
       // 'chat.requestCodeBorder': scheme.common.error.hex(),
