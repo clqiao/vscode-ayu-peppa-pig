@@ -47,3 +47,8 @@ To enable file icons: `Preferences > File Icon Theme > Ayu`.
 1. `npm i` to install dependencies
 2. `npm start` to build the theme in watch mode
 3. Press F5 to observe changes in real-time in the debug editor window
+
+### Description
+1. `npm i` 即 npm install 命令，安装需要的依赖库。
+2. npm run build，编译生成 json 文件。
+3. npm start，build 并且进入 watch 模式，文件有变化自动编译。

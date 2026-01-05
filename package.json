@@ -1,9 +1,9 @@
 {
-  "name": "ayu",
-  "displayName": "Ayu",
+  "name": "ayu-peppa",
+  "displayName": "Ayu Peppa",
   "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
   "version": "1.1.7",
-  "publisher": "teabyii",
+  "publisher": "clqiao",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -30,47 +30,59 @@
   "contributes": {
     "themes": [
       {
-        "id": "Ayu Light",
-        "label": "Ayu Light",
+        "id": "Ayu-peppa Light",
+        "label": "Ayu-peppa Light",
         "uiTheme": "vs",
-        "path": "./ayu-light-unbordered.json"
+        "path": "./ayu-peppa-light-unbordered.json"
       },
       {
-        "id": "Ayu Light Bordered",
-        "label": "Ayu Light Bordered",
+        "id": "Ayu-peppa Light Bordered",
+        "label": "Ayu-peppa Light Bordered",
         "uiTheme": "vs",
-        "path": "./ayu-light.json"
+        "path": "./ayu-peppa-light.json"
       },
       {
-        "id": "Ayu Mirage",
-        "label": "Ayu Mirage",
+        "id": "Ayu-peppa Mirage",
+        "label": "Ayu-peppa Mirage",
         "uiTheme": "vs-dark",
-        "path": "./ayu-mirage-unbordered.json"
+        "path": "./ayu-peppa-mirage-unbordered.json"
       },
       {
-        "id": "Ayu Mirage Bordered",
-        "label": "Ayu Mirage Bordered",
+        "id": "Ayu-peppa Mirage Bordered",
+        "label": "Ayu-peppa Mirage Bordered",
         "uiTheme": "vs-dark",
-        "path": "./ayu-mirage.json"
+        "path": "./ayu-peppa-mirage.json"
       },
       {
-        "id": "Ayu Dark",
-        "label": "Ayu Dark",
+        "id": "Ayu-peppa Dark",
+        "label": "Ayu-peppa Dark",
         "uiTheme": "vs-dark",
-        "path": "./ayu-dark-unbordered.json"
+        "path": "./ayu-peppa-dark-unbordered.json"
       },
       {
-        "id": "Ayu Dark Bordered",
-        "label": "Ayu Dark Bordered",
+        "id": "Ayu-peppa Dark Bordered",
+        "label": "Ayu-peppa Dark Bordered",
         "uiTheme": "vs-dark",
-        "path": "./ayu-dark.json"
+        "path": "./ayu-peppa-dark.json"
+      },
+      {
+        "id": "Ayu-shiba-inu Light",
+        "label": "Ayu-shiba-inu Light",
+        "uiTheme": "vs",
+        "path": "./ayu-shiba-inu-light-unbordered.json"
+      },
+      {
+        "id": "Ayu-shiba-inu Light Bordered",
+        "label": "Ayu-shiba-inu Light Bordered",
+        "uiTheme": "vs",
+        "path": "./ayu-shiba-inu-light.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "ayu",
-        "label": "Ayu",
-        "path": "./ayu-icons.json"
+        "id": "ayu-peppa",
+        "label": "Ayu-peppa",
+        "path": "./ayu-peppa-icons.json"
       }
     ]
   },
@@ -81,7 +93,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
-    "ayu": "file:../ayu-colors",
+    "ayu": "file:../ayu-colors-peppa",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0",
     "vsce": "^2.15.0"

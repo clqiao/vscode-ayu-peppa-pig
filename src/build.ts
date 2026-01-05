@@ -2,10 +2,12 @@ import * as fs from 'fs'
 import * as path from 'path'
 import template, { SchemeName } from './template'
 
-const filePath = (variant: string, bordered: boolean) =>
-  path.join(process.cwd(), `/ayu-${variant}${bordered ? '' : '-unbordered'}.json`)
+const filePath = (variant: string, bordered: boolean) => {
+  const name = variant === 'shiba-inu-light' ? variant : `peppa-${variant}`
+  return path.join(process.cwd(), `/ayu-${name}${bordered ? '' : '-unbordered'}.json`)
+}
 
-;['light', 'dark', 'mirage'].map((variant: SchemeName) => {
+;['light', 'dark', 'mirage', 'shiba-inu-light'].map((variant: SchemeName) => {
   const bordered = JSON.stringify(template(variant, true), null, '\t')
   const nonBordered = JSON.stringify(template(variant, false), null, '\t')
 

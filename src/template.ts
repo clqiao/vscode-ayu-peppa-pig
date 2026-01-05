@@ -1,6 +1,6 @@
 import * as ayu from 'ayu'
 
-export type SchemeName = 'light' | 'dark' | 'mirage'
+export type SchemeName = 'light' | 'dark' | 'mirage' | 'shiba-inu-light'
 
 const terminalColors = {
   light: {
@@ -20,13 +20,19 @@ const terminalColors = {
     white: '#c7c7c7',
     brightBlack: '#686868',
     brightWhite: '#ffffff'
+  },
+  'shiba-inu-light': {
+    black: '#000000',
+    white: '#c7c7c7',
+    brightBlack: '#686868',
+    brightWhite: '#d1d1d1'
   }
 }
 
 export default (variant: SchemeName, bordered: boolean) => {
-  const scheme = ayu[variant]
+  const scheme = variant === 'shiba-inu-light' ? ayu.shibaInuLight : ayu[variant]
   return {
-    type: variant === 'light' ? 'light' : 'dark',
+    type: (variant === 'light' || variant === 'shiba-inu-light') ? 'light' : 'dark',
     colors: {
       // Colour reference https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
