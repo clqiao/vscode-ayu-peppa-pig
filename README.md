@@ -49,6 +49,7 @@ To enable file icons: `Preferences > File Icon Theme > Ayu`.
 3. Press F5 to observe changes in real-time in the debug editor window
 
 ### Description
-1. `npm i` 即 npm install 命令，安装需要的依赖库。
-2. npm run build，编译生成 json 文件。
-3. npm start，build 并且进入 watch 模式，文件有变化自动编译。
+- 这个库 fork 自 ayu-theme 官方库，ayu-theme 官方库 fork 自 Sublime Text 4 Ayu theme 官方库。
+- `npm i` 即 npm install 命令，安装需要的依赖库。
+- npm run build，编译生成 json 文件。
+- npm start，build 并且进入 watch 模式，文件有变化自动编译。
