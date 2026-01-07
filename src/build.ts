@@ -3,8 +3,26 @@ import * as path from 'path'
 import template, { SchemeName } from './template'
 
 const filePath = (variant: string, bordered: boolean) => {
-  const name = variant === 'shiba-inu-light' ? variant : `peppa-${variant}`
-  return path.join(process.cwd(), `/ayu-${name}${bordered ? '' : '-unbordered'}.json`)
+  let base: string
+  switch (variant) {
+    case 'light':
+      base = 'ayu-cola-powder-rose-light'
+      break
+    case 'dark':
+      base = 'ayu-cola-dark'
+      break
+    case 'mirage':
+      base = 'ayu-cola-mirage'
+      break
+    case 'shiba-inu-light':
+      base = 'ayu-cola-shiba-inu-light'
+      break
+    default:
+      base = `ayu-cola-${variant}`
+  }
+
+  const suffix = bordered ? '' : '-unbordered'
+  return path.join(process.cwd(), `/${base}${suffix}.json`)
 }
 
 ;['light', 'dark', 'mirage', 'shiba-inu-light'].map((variant: SchemeName) => {

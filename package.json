@@ -1,17 +1,17 @@
 {
-  "name": "ayu-peppa",
-  "displayName": "Ayu Peppa",
+  "name": "ayu-cola",
+  "displayName": "Ayu Cola",
   "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
   "version": "1.1.7",
   "publisher": "clqiao",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayu-theme/vscode-ayu"
+    "url": "https://github.com/clqiao/vscode-ayu-peppa-pig"
   },
   "bugs": {
-    "url": "https://github.com/ayu-theme/vscode-ayu/issues",
-    "email": "teabyii@gmail.com"
+    "url": "https://github.com/clqiao/vscode-ayu-peppa-pig/issues",
+    "email": "clqiao@gmail.com"
   },
   "engines": {
     "vscode": "^1.63.0",
@@ -25,64 +25,64 @@
     "theme",
     "ayu"
   ],
-  "homepage": "https://github.com/ayu-theme/vscode-ayu",
+  "homepage": "https://github.com/clqiao/vscode-ayu-peppa-pig",
   "icon": "assets/logo.png",
   "contributes": {
     "themes": [
       {
-        "id": "Ayu-peppa Light",
-        "label": "Ayu-peppa Light",
+        "id": "Ayu Cola Powder Rose Light",
+        "label": "Ayu Cola Powder Rose Light",
         "uiTheme": "vs",
-        "path": "./ayu-peppa-light-unbordered.json"
+        "path": "./ayu-cola-powder-rose-light-unbordered.json"
       },
       {
-        "id": "Ayu-peppa Light Bordered",
-        "label": "Ayu-peppa Light Bordered",
+        "id": "Ayu Cola Powder Rose Light Bordered",
+        "label": "Ayu Cola Powder Rose Light Bordered",
         "uiTheme": "vs",
-        "path": "./ayu-peppa-light.json"
+        "path": "./ayu-cola-powder-rose-light.json"
       },
       {
-        "id": "Ayu-peppa Mirage",
-        "label": "Ayu-peppa Mirage",
+        "id": "Ayu Cola Mirage",
+        "label": "Ayu Cola Mirage",
         "uiTheme": "vs-dark",
-        "path": "./ayu-peppa-mirage-unbordered.json"
+        "path": "./ayu-cola-mirage-unbordered.json"
       },
       {
-        "id": "Ayu-peppa Mirage Bordered",
-        "label": "Ayu-peppa Mirage Bordered",
+        "id": "Ayu Cola Mirage Bordered",
+        "label": "Ayu Cola Mirage Bordered",
         "uiTheme": "vs-dark",
-        "path": "./ayu-peppa-mirage.json"
+        "path": "./ayu-cola-mirage.json"
       },
       {
-        "id": "Ayu-peppa Dark",
-        "label": "Ayu-peppa Dark",
+        "id": "Ayu Cola Dark",
+        "label": "Ayu Cola Dark",
         "uiTheme": "vs-dark",
-        "path": "./ayu-peppa-dark-unbordered.json"
+        "path": "./ayu-cola-dark-unbordered.json"
       },
       {
-        "id": "Ayu-peppa Dark Bordered",
-        "label": "Ayu-peppa Dark Bordered",
+        "id": "Ayu Cola Dark Bordered",
+        "label": "Ayu Cola Dark Bordered",
         "uiTheme": "vs-dark",
-        "path": "./ayu-peppa-dark.json"
+        "path": "./ayu-cola-dark.json"
       },
       {
-        "id": "Ayu-shiba-inu Light",
-        "label": "Ayu-shiba-inu Light",
+        "id": "Ayu Cola Shiba Inu Light",
+        "label": "Ayu Cola Shiba Inu Light",
         "uiTheme": "vs",
-        "path": "./ayu-shiba-inu-light-unbordered.json"
+        "path": "./ayu-cola-shiba-inu-light-unbordered.json"
       },
       {
-        "id": "Ayu-shiba-inu Light Bordered",
-        "label": "Ayu-shiba-inu Light Bordered",
+        "id": "Ayu Cola Shiba Inu Light Bordered",
+        "label": "Ayu Cola Shiba Inu Light Bordered",
         "uiTheme": "vs",
-        "path": "./ayu-shiba-inu-light.json"
+        "path": "./ayu-cola-shiba-inu-light.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "ayu-peppa",
-        "label": "Ayu-peppa",
-        "path": "./ayu-peppa-icons.json"
+        "id": "ayu-cola-icons",
+        "label": "Ayu Cola Icons",
+        "path": "./ayu-cola-icons.json"
       }
     ]
   },
