@@ -40,7 +40,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       // --
 
       // BASE COLOURS
-      focusBorder: scheme.common.accent.tint.hex(),
+      focusBorder: scheme.ui.line.hex(),
       foreground: scheme.ui.fg.hex(),
       'widget.border': scheme.ui.line.hex(),
       'widget.shadow': scheme.ui.panel.shadow.hex(),
@@ -118,6 +118,9 @@ export default (variant: SchemeName, bordered: boolean) => {
       'list.focusBackground': scheme.ui.selection.active.hex(),
       'list.focusForeground': scheme.editor.fg.hex(),
       'list.focusOutline': scheme.ui.selection.active.hex(),
+      // 'list.focusAndSelectionOutline': scheme.common.blue.hex(),
+      // 'list.inactiveFocusOutline': scheme.common.blue.hex(),
+
       'list.highlightForeground': scheme.common.accent.tint.hex(),
       'list.deemphasizedForeground': scheme.common.error.hex(),
       'list.hoverBackground': scheme.ui.selection.active.hex(),
@@ -127,9 +130,15 @@ export default (variant: SchemeName, bordered: boolean) => {
       'list.invalidItemForeground': scheme.ui.fg.alpha(0.3).hex(),
       'list.errorForeground': scheme.common.error.hex(),
       'tree.indentGuidesStroke': scheme.editor.indentGuide.active.hex(),
+      'tree.tableColumnsBorder': scheme.common.blue.hex(),
+      // 'tree.tableOddRowsBackground': scheme.common.green.hex(),
 
       'listFilterWidget.background': scheme.ui.panel.bg.hex(),
       'listFilterWidget.outline': scheme.common.accent.tint.hex(),
+      // 'listFilterWidget.noMatchesOutline': scheme.common.blue.hex(),
+      // 'listFilterWidget.shadow': scheme.common.blue.hex(),
+      // 'listFilterWidget.focusAndSelectionOutline': scheme.common.blue.hex(),
+      
       'listFilterWidget.noMatchesOutline': scheme.common.error.hex(),
       'list.filterMatchBackground': scheme.editor.findMatch.inactive.darken(0.3).hex(),
       'list.filterMatchBorder': scheme.editor.findMatch.inactive.hex(),
@@ -239,6 +248,14 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       'editorIndentGuide.background6': scheme.editor.indentGuide6.normal.hex(),
       'editorIndentGuide.activeBackground6': scheme.editor.indentGuide6.active.hex(),
+
+      // editorBracketHighlight.foreground1
+      'editorBracketHighlight.foreground1': scheme.editor.indentGuide1.active.hex(),
+      'editorBracketHighlight.foreground2': scheme.editor.indentGuide2.active.hex(),
+      'editorBracketHighlight.foreground3': scheme.editor.indentGuide3.active.hex(),
+      'editorBracketHighlight.foreground4': scheme.editor.indentGuide4.active.hex(),
+      'editorBracketHighlight.foreground5': scheme.editor.indentGuide5.active.hex(),
+      'editorBracketHighlight.foreground6': scheme.editor.indentGuide6.active.hex(),
 
       // INSERTED CODE HINTS (like types by rust-analyzer)
       // 'editorInlayHint.background': ,
@@ -377,6 +394,8 @@ export default (variant: SchemeName, bordered: boolean) => {
       // 'menu.selectionForeground': '?',
       // 'menu.selectionBackground': '?',
       // 'menu.selectionBorder': '?',
+      
+      'menu.border': bordered ? scheme.ui.line.hex() : scheme.ui.bg.hex(),
 
       // NOTIFICATION
       // 'notificationCenter.border': '?',
@@ -454,6 +473,8 @@ export default (variant: SchemeName, bordered: boolean) => {
       'terminalStickyScroll.border': scheme.ui.line.hex(),
       'terminalStickyScroll.shadow': scheme.ui.panel.shadow.hex(),
       'terminalStickyScrollHover.background': scheme.ui.selection.normal.hex(),
+      'terminalCursor.foreground': scheme.common.accent.tint.hex(),
+      
 
       // COMMAND CENTER
       'commandCenter.foreground': scheme.ui.fg.hex(),
