@@ -100,7 +100,7 @@
 		"tab.activeForeground": "#bfbdb6",
 		"tab.border": "#1b1f29",
 		"tab.activeBorder": "#10141c",
-		"tab.unfocusedActiveBorderTop": "#555e73",
+		"tab.unfocusedActiveBorder": "#10141c",
 		"tab.inactiveBackground": "#0d101766",
 		"tab.inactiveForeground": "#555e73",
 		"tab.unfocusedActiveForeground": "#555e73",
