@@ -90,9 +90,9 @@ export default (variant: SchemeName, bordered: boolean) => {
       'inputOption.activeForeground': scheme.common.accent.tint.hex(),
       'inputValidation.errorBackground': scheme.editor.bg.hex(),
       'inputValidation.errorBorder': scheme.common.error.hex(),
-      'inputValidation.infoBackground': scheme.ui.secondary_bg.hex(),
+      'inputValidation.infoBackground': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'inputValidation.infoBorder': scheme.syntax.tag.hex(),
-      'inputValidation.warningBackground': scheme.ui.secondary_bg.hex(),
+      'inputValidation.warningBackground': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'inputValidation.warningBorder': scheme.syntax.func.hex(),
 
       // SCROLLBAR CONTROL
@@ -144,7 +144,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'list.filterMatchBorder': scheme.editor.findMatch.inactive.hex(),
 
       // ACTIVITY BAR
-      'activityBar.background': scheme.ui.secondary_bg.hex(),
+      'activityBar.background': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'activityBar.foreground': scheme.common.accent.tint.hex(),
       'activityBar.inactiveForeground': scheme.ui.fg.hex(),
       'activityBar.border': bordered ? scheme.ui.line.hex() : scheme.unbordered_ui.line.hex(),
@@ -159,7 +159,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'sideBar.background': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'sideBar.border': bordered ? scheme.ui.line.hex() : scheme.unbordered_ui.line.hex(),
       'sideBarTitle.foreground': bordered ? scheme.ui.fg.hex() : scheme.unbordered_ui.fg.hex(),
-      'sideBarSectionHeader.background': scheme.ui.secondary_bg.hex(),
+      'sideBarSectionHeader.background': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'sideBarSectionHeader.foreground': bordered ? scheme.ui.fg.hex() : scheme.unbordered_ui.fg.hex(),
       'sideBarSectionHeader.border': bordered ? scheme.ui.line.hex() : scheme.unbordered_ui.line.hex(),
       'sideBarStickyScroll.border': scheme.ui.line.hex(),
@@ -177,8 +177,8 @@ export default (variant: SchemeName, bordered: boolean) => {
       // EDITOR GROUPS & TABS
       'editorGroup.border': scheme.ui.line.hex(),
       'editorGroup.background': scheme.ui.panel.bg.hex(),
-      'editorGroupHeader.noTabsBackground': scheme.ui.secondary_bg.hex(),
-      'editorGroupHeader.tabsBackground': scheme.ui.secondary_bg.hex(),
+      'editorGroupHeader.noTabsBackground': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
+      'editorGroupHeader.tabsBackground': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'editorGroupHeader.tabsBorder': bordered ? scheme.ui.line.hex() : scheme.unbordered_ui.line.hex(),
       'editorGroupHeader.border': bordered ? scheme.ui.line.hex() : scheme.unbordered_ui.line.hex(),
       'tab.activeBackground': scheme.editor.bg.hex(),
@@ -424,7 +424,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       // 'debugToolBar.border': '',
 
       // WELCOME PAGE
-      'welcomePage.tileBackground': scheme.ui.secondary_bg.hex(),
+      'welcomePage.tileBackground': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'welcomePage.tileShadow': scheme.ui.panel.shadow.hex(),
       'welcomePage.progress.background': scheme.editor.line.hex(),
       'welcomePage.buttonBackground': scheme.common.accent.tint.alpha(0.4).hex(),
@@ -492,7 +492,7 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       // CHAT
       'chat.requestBorder': scheme.ui.selection.active.hex(),
-      'chat.requestBackground': scheme.ui.secondary_bg.hex(),
+      'chat.requestBackground': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'chat.requestBubbleBackground': scheme.ui.selection.normal.hex(),
       'chat.requestBubbleHoverBackground': scheme.ui.selection.active.hex(),
       // 'chat.requestCodeBorder': scheme.common.error.hex(),
@@ -535,7 +535,7 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       // MULTI DIFF EDITOR
       'multiDiffEditor.headerBackground': scheme.ui.panel.bg.hex(),
-      'multiDiffEditor.background': scheme.ui.secondary_bg.hex(),
+      'multiDiffEditor.background': bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
       'multiDiffEditor.border': scheme.ui.line.hex(),
 
       // SYMBOL ICONS
@@ -577,7 +577,7 @@ export default (variant: SchemeName, bordered: boolean) => {
     tokenColors: [
       {
         settings: {
-          background: scheme.ui.secondary_bg.hex(),
+          background: bordered ? scheme.ui.secondary_bg.hex() : scheme.unbordered_ui.secondary_bg.hex(),
           foreground: scheme.editor.fg.hex()
         }
       },
