@@ -325,7 +325,7 @@ export default (variant: SchemeName) => {
       // 'editorOverviewRuler.incomingContentForeground': '?',
       // 'editorOverviewRuler.commonContentForeground': '?',
 
-      'panel.background': scheme.ui.panel_bg.hex(),
+      'panel.background': scheme.ui.panel.bg.hex(),
       'panel.border': scheme.ui.activity_bar_border.hex(),
       'panelTitle.activeBorder': scheme.common.accent.tint.alpha(0.0).hex(),
       'panelTitle.activeForeground': scheme.common.accent.tint.hex(),
