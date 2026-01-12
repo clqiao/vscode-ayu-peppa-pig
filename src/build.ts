@@ -14,9 +14,6 @@ const filePath = (variant: string, bordered: boolean) => {
     case 'mirage':
       base = 'ayu-cola-mirage'
       break
-    case 'shiba-inu-light':
-      base = 'ayu-cola-shiba-inu-light'
-      break
     default:
       base = `ayu-cola-${variant}`
   }
@@ -25,7 +22,7 @@ const filePath = (variant: string, bordered: boolean) => {
   return path.join(process.cwd(), `/${base}${suffix}.json`)
 }
 
-;['light', 'dark', 'mirage', 'shiba-inu-light'].map((variant: SchemeName) => {
+;['light', 'dark', 'mirage'].map((variant: SchemeName) => {
   const bordered = JSON.stringify(template(variant, true), null, '\t')
   const nonBordered = JSON.stringify(template(variant, false), null, '\t')
 

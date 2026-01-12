@@ -64,18 +64,6 @@
         "label": "Ayu Cola Dark Bordered",
         "uiTheme": "vs-dark",
         "path": "./ayu-cola-dark.json"
-      },
-      {
-        "id": "Ayu Cola Shiba Inu Light",
-        "label": "Ayu Cola Shiba Inu Light",
-        "uiTheme": "vs",
-        "path": "./ayu-cola-shiba-inu-light-unbordered.json"
-      },
-      {
-        "id": "Ayu Cola Shiba Inu Light Bordered",
-        "label": "Ayu Cola Shiba Inu Light Bordered",
-        "uiTheme": "vs",
-        "path": "./ayu-cola-shiba-inu-light.json"
       }
     ],
     "iconThemes": [
