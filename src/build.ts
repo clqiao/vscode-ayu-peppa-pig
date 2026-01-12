@@ -5,7 +5,7 @@ import template, { SchemeName } from './template'
 const filePath = (variant: SchemeName) => {
   const isBordered = variant.endsWith('Bordered')
   const base = variant.replace('Bordered', '')
-  const name = base === 'light' ? 'ayu-cola-powder-rose-light' : `ayu-cola-${base}`
+  const name = `ayu-cola-${base}`
   const suffix = isBordered ? '-bordered' : ''
   return path.join(process.cwd(), `${name}${suffix}.json`)
 }

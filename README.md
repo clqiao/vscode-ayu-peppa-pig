@@ -1,4 +1,4 @@
-A simple theme with bright colors, available in three variants — powder rose light, dark and mirage. 
+A simple theme with bright colors, available in three variants — light, dark and mirage. 
 
 Forked from the original ayu-theme (https://github.com/ayu-theme/vscode-ayu, original author: Ike Kurghinyan).
 This repository includes additional modifications by Qiao Changliang <clqiao@gmail.com>.

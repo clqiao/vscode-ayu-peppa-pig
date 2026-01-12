@@ -30,16 +30,16 @@
   "contributes": {
     "themes": [
       {
-        "id": "Ayu Cola Powder Rose Light",
-        "label": "Ayu Cola Powder Rose Light",
+        "id": "Ayu Cola Light",
+        "label": "Ayu Cola Light",
         "uiTheme": "vs",
-        "path": "./ayu-cola-powder-rose-light.json"
+        "path": "./ayu-cola-light.json"
       },
       {
-        "id": "Ayu Cola Powder Rose Light Bordered",
-        "label": "Ayu Cola Powder Rose Light Bordered",
+        "id": "Ayu Cola Light Bordered",
+        "label": "Ayu Cola Light Bordered",
         "uiTheme": "vs",
-        "path": "./ayu-cola-powder-rose-light-bordered.json"
+        "path": "./ayu-cola-light-bordered.json"
       },
       {
         "id": "Ayu Cola Mirage",

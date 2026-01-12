@@ -4,13 +4,13 @@ If you run into any issues, please report them at <https://github.com/clqiao/vsc
 
 `2026-1-8`
 
-Update Powder Rose light theme colors.
+Update Light theme colors.
 
 ## 2.0.2
 
 `2026-1-7`
 
-Add Powder Rose light theme.
+Add Light theme.
 
 ## 2.0.1
 
