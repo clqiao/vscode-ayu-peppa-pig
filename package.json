@@ -33,37 +33,37 @@
         "id": "Ayu Cola Powder Rose Light",
         "label": "Ayu Cola Powder Rose Light",
         "uiTheme": "vs",
-        "path": "./ayu-cola-powder-rose-light-unbordered.json"
+        "path": "./ayu-cola-powder-rose-light.json"
       },
       {
         "id": "Ayu Cola Powder Rose Light Bordered",
         "label": "Ayu Cola Powder Rose Light Bordered",
         "uiTheme": "vs",
-        "path": "./ayu-cola-powder-rose-light.json"
+        "path": "./ayu-cola-powder-rose-light-bordered.json"
       },
       {
         "id": "Ayu Cola Mirage",
         "label": "Ayu Cola Mirage",
         "uiTheme": "vs-dark",
-        "path": "./ayu-cola-mirage-unbordered.json"
+        "path": "./ayu-cola-mirage.json"
       },
       {
         "id": "Ayu Cola Mirage Bordered",
         "label": "Ayu Cola Mirage Bordered",
         "uiTheme": "vs-dark",
-        "path": "./ayu-cola-mirage.json"
+        "path": "./ayu-cola-mirage-bordered.json"
       },
       {
         "id": "Ayu Cola Dark",
         "label": "Ayu Cola Dark",
         "uiTheme": "vs-dark",
-        "path": "./ayu-cola-dark-unbordered.json"
+        "path": "./ayu-cola-dark.json"
       },
       {
         "id": "Ayu Cola Dark Bordered",
         "label": "Ayu Cola Dark Bordered",
         "uiTheme": "vs-dark",
-        "path": "./ayu-cola-dark.json"
+        "path": "./ayu-cola-dark-bordered.json"
       }
     ],
     "iconThemes": [
