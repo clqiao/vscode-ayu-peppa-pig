@@ -64,6 +64,18 @@
         "label": "Ayu Cola Dark Bordered",
         "uiTheme": "vs-dark",
         "path": "./ayu-cola-dark-bordered.json"
+      },
+      {
+        "id": "Ayu Cola Powder Rose Light",
+        "label": "Ayu Cola Powder Rose Light",
+        "uiTheme": "vs",
+        "path": "./ayu-cola-powder-rose-light.json"
+      },
+      {
+        "id": "Ayu Cola Powder Rose Light Bordered",
+        "label": "Ayu Cola Powder Rose Light Bordered",
+        "uiTheme": "vs",
+        "path": "./ayu-cola-powder-rose-light-bordered.json"
       }
     ],
     "iconThemes": [

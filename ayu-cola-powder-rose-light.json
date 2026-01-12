@@ -1,7 +1,7 @@
 {
 	"type": "light",
 	"colors": {
-		"focusBorder": "#f8e8e800",
+		"focusBorder": "#f8e8e8",
 		"foreground": "#806060",
 		"widget.border": "#c8a8a800",
 		"widget.shadow": "#6b7d8f4d",

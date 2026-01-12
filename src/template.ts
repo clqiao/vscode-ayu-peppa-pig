@@ -1,11 +1,11 @@
 import * as ayu from 'ayu'
 
-export type SchemeName = 'light' | 'dark' | 'mirage' | 'lightBordered' | 'darkBordered' | 'mirageBordered'
+export type SchemeName = 'light' | 'dark' | 'mirage' | 'lightBordered' | 'darkBordered' | 'mirageBordered' | 'powderRoseLight' | 'powderRoseLightBordered'
 
 export default (variant: SchemeName) => {
   const scheme = ayu[variant]
   return {
-    type: (variant === 'light' || variant === 'lightBordered') ? 'light' : 'dark',
+    type: (variant === 'light' || variant === 'lightBordered' || variant === 'powderRoseLight' || variant === 'powderRoseLightBordered') ? 'light' : 'dark',
     colors: {
       // Colour reference https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
