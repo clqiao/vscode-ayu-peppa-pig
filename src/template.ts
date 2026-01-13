@@ -273,7 +273,8 @@ export default (variant: SchemeName) => {
       // EDITOR WIDGET
       'editorWidget.background': scheme.ui.panel.bg.hex(),
       'editorWidget.border': scheme.ui.line.hex(),
-      'editorWidget.resizeBorder': scheme.ui.panel.bg.hex(), // hide ugly resize bars
+      'editorWidget.resizeBorder': scheme.ui.panel.bg.alpha(0).hex(),   // hide ugly resize bars
+      'simpleFindWidget.sashBorder': scheme.ui.panel.bg.alpha(0).hex(), // hide ugly resize bars in terminal panel too
       'editorHoverWidget.background': scheme.ui.panel.bg.hex(),
       'editorHoverWidget.border': scheme.ui.line.hex(),
       'editorSuggestWidget.background': scheme.ui.panel.bg.hex(),

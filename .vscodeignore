@@ -3,3 +3,15 @@ assets
 !assets/logo.png
 test
 yarn.lock
+package-lock.json
+src
+tsconfig.json
+build.sh
+dev-notes.md
+ansi.js
+fonts
+.eslintrc
+.prettierrc.js
+.git
+.gitignore
+*.vsix
