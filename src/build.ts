@@ -14,7 +14,7 @@ const filePath = (variant: SchemeName) => {
   return path.join(process.cwd(), `${name}${suffix}.json`)
 }
 
-;(['light', 'dark', 'mirage', 'lightBordered', 'darkBordered', 'mirageBordered', 'powderRoseLight', 'powderRoseLightBordered'] as SchemeName[]).forEach(
+;(['light', 'dark', 'mirage', 'lightBordered', 'darkBordered', 'mirageBordered', 'powderRoseLight', 'powderRoseLightBordered', 'shibaInuLight', 'shibaInuLightBordered'] as SchemeName[]).forEach(
   (variant: SchemeName) => {
     const content = JSON.stringify(template(variant), null, '\t')
 

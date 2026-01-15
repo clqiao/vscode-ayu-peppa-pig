@@ -2,7 +2,7 @@
   "name": "ayu-cola",
   "displayName": "Ayu Cola",
   "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "publisher": "clqiao",
   "license": "MIT",
   "repository": {
@@ -76,6 +76,18 @@
         "label": "Ayu Cola Powder Rose Light Bordered",
         "uiTheme": "vs",
         "path": "./ayu-cola-powder-rose-light-bordered.json"
+      },
+      {
+        "id": "Ayu Cola Shiba Inu Light",
+        "label": "Ayu Cola Shiba Inu Light",
+        "uiTheme": "vs",
+        "path": "./ayu-cola-shiba-inu-light.json"
+      },
+      {
+        "id": "Ayu Cola Shiba Inu Light Bordered",
+        "label": "Ayu Cola Shiba Inu Light Bordered",
+        "uiTheme": "vs",
+        "path": "./ayu-cola-shiba-inu-light-bordered.json"
       }
     ],
     "iconThemes": [
